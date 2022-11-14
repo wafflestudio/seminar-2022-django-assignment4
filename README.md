@@ -26,3 +26,5 @@ custom management command를 작성한 후, 이를 render.com의 cronjob을 이�
 
 ### 제출
 - 설정 완료된 cronjob 페이지의 스크린샷을 repository root에 첨부해주세요.
+  
+![예시2](./예시2.png)
