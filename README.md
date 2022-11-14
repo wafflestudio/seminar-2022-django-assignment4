@@ -2,9 +2,6 @@
 
 제출기한: 22.11.27(일) 23:59:59
 
-## 안내
-
-
 ## problem 1: render.com을 이용한 production 배포
 
 paas 플랫폼인 render.com을 이용해 django project를 배포합니다.
