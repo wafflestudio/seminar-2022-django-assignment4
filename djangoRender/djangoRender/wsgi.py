@@ -11,8 +11,9 @@ import os
 import sys
 from django.core.wsgi import get_wsgi_application
 
-sys.path.append('/home/djangoRender')
-sys.path.append('/home/djangoRender/djangoRender')
+path = '/home/djangoRender'
+if path not in sys.path:
+    sys.path.insert(0, path)
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoRender.settings')
 
