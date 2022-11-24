@@ -393,6 +393,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # Custom Settings
-problem1/mysettings/*
+config/mysettings/*
 
 # End of https://www.toptal.com/developers/gitignore/api/django,windows,python,pycharm
