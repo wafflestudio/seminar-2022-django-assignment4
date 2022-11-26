@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("waffle_assignment4.render.urls"))
+    path("", include("render.urls"))
 ]

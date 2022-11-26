@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "waffle_assignment4.render.apps.RenderConfig",
+    "render.apps.RenderConfig",
 ]
 
 MIDDLEWARE = [
