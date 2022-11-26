@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class RenderConfig(AppConfig):
-    name = 'render'
+    name = 'waffle_assignment4.render'
