@@ -128,12 +128,12 @@ LOGGING = {
     'disable_existing_loggers': False,
     'handlers': {
         'console': {
-            'level': DEBUG,
+            'level': 'DEBUG',
             'class': 'logging.StreamHandler',
         },
     },
     'root': {
         'level': 'INFO',
-        'handlers': ['console'],
+        'handlers': ['console']
     },
 }
