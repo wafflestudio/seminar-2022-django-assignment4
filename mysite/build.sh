@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/Users/ahyeon/Desktop/mysite bash
 # exit on error
 set -o errexit
 
