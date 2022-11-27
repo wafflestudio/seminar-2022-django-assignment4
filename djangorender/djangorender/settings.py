@@ -39,6 +39,21 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+    'console': {
+        'level': 'DEBUG',
+        'class': 'logging.StreamHandler',
+        },
+    },
+    'root': {
+        'level': 'INFO',
+        'handlers': ['console']
+        },
+}
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
