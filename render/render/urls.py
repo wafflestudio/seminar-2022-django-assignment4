@@ -17,7 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
 
+def foo():
+    return HttpResponse("Hello, SeungAh!", status=200)
+
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("/", HttpResponse("Hello, SeungAh!", status=200)),
+    path("/", foo),
 ]
+
